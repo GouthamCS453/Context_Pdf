@@ -1,0 +1,22 @@
+{
+  "Fedrated Learninig": {
+    "summary": "This paper provides an overview of federated learning (FL) systems, focusing on its applications in healthcare. FL allows multiple clients to collaborate on machine learning problems while maintaining data privacy. Various privacy methods and FL classes are discussed along with the challenges and future research directions in FL.",
+    "key_insights": [
+      "Federated learning (FL) involves multiple clients working together under a central aggregator to address machine learning problems while protecting data privacy.",
+      "Privacy methods in FL include secure multiparty computation, homomorphic encryption, differential privacy, and stochastic gradient descent.",
+      "FL has applications in healthcare, wireless communication, service recommendation, and intelligent medical diagnosis systems.",
+      "Challenges in FL include privacy protection, communication cost, system heterogeneity, and unreliable model upload.",
+      "Future research directions in FL are centered around addressing unresolved issues and further advancements in privacy and system efficiency."
+    ]
+  },
+  "Racing-101-": {
+    "summary": "The document provides insights into various aspects of race car design and terminology, including aerodynamics, anti-roll bars, apex, backmarker, banking, and flags used during races.",
+    "key_insights": [
+      "Aerodynamics play a crucial role in optimizing downforce and minimizing drag to enhance a race car's performance.",
+      "Anti-roll bars help in maintaining tire grip and stability during cornering by preventing the car from rolling over.",
+      "Drivers strategically use apex points in corners to straighten out the exit for better acceleration.",
+      "Flags like black flags signal drivers to address dangerous conditions or infractions, while blue flags alert drivers about faster cars approaching or attempting passes.",
+      "Brake bias adjustment allows drivers to optimize braking performance by balancing front and rear brake forces based on weight transfer during braking."
+    ]
+  }
+}

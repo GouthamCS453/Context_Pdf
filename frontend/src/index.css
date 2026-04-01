@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --scrollbar-thumb: #1a936f;
+    --scrollbar-track: #e8f0e5;
+  }
+  .dark {
+    --scrollbar-thumb: #1a936f;
+    --scrollbar-track: #0a2d39;
+  }
+
+  * {
+    scrollbar-width: thin;
+    scrollbar-color: var(--scrollbar-thumb) var(--scrollbar-track);
+  }
+  *::-webkit-scrollbar { width: 6px; height: 6px; }
+  *::-webkit-scrollbar-track { background: var(--scrollbar-track); }
+  *::-webkit-scrollbar-thumb { background: var(--scrollbar-thumb); border-radius: 3px; }
+
+  html { font-family: 'DM Sans', sans-serif; }
+
+  body {
+    @apply bg-vanilla_cream-900 text-dark_teal-500 transition-colors duration-300;
+  }
+  .dark body {
+    @apply bg-dark_teal-200 text-tea_green-500;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-sea_green-500 hover:bg-sea_green-400 text-white font-body font-medium px-5 py-2.5 rounded-lg transition-all duration-200 active:scale-95;
+  }
+  .btn-ghost {
+    @apply bg-transparent hover:bg-tea_green-800 dark:hover:bg-dark_teal-400 text-dark_teal-500 dark:text-tea_green-500 font-body font-medium px-4 py-2 rounded-lg transition-all duration-200;
+  }
+  .card {
+    @apply bg-white dark:bg-dark_teal-300 rounded-xl border border-tea_green-700 dark:border-dark_teal-400 shadow-sm;
+  }
+  .input-field {
+    @apply w-full bg-vanilla_cream-800 dark:bg-dark_teal-400 border border-tea_green-600 dark:border-dark_teal-600 rounded-lg px-4 py-2.5 text-dark_teal-500 dark:text-tea_green-500 placeholder-tea_green-400 dark:placeholder-dark_teal-700 focus:outline-none focus:ring-2 focus:ring-sea_green-500 transition-all duration-200 font-body;
+  }
+}
