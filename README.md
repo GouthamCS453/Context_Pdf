@@ -2,7 +2,7 @@
 
 A full-stack web application that allows users to interact with PDF documents using AI-powered chat. Place PDF files in the backend directory, index them, then ask questions about your documents, get summaries, and maintain chat history across multiple sessions.
 
-## 🌟 Features
+##  Features
 
 - **PDF Processing & Indexing** - Place PDF files in the backend directory and index them for search
 - **AI-Powered Chat** - Ask questions about your indexed documents and get intelligent responses
@@ -13,7 +13,7 @@ A full-stack web application that allows users to interact with PDF documents us
 - **Responsive Design** - Works seamlessly on desktop and mobile devices
 - **Dark/Light Theme** - Toggle between dark and light modes
 
-## 📋 Project Structure
+##  Project Structure
 
 ```
 notebook_web/Context_Pdf/
@@ -47,7 +47,7 @@ notebook_web/Context_Pdf/
     └── index.html
 ```
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### Prerequisites
 
@@ -108,7 +108,7 @@ notebook_web/Context_Pdf/
 
    The application will be available at `http://localhost:5173`
 
-## 📦 Dependencies
+## Dependencies
 
 ### Backend
 - **FastAPI** - Modern web framework for building APIs
@@ -126,7 +126,7 @@ notebook_web/Context_Pdf/
 - **Tailwind CSS** - Utility-first CSS framework
 - **Lucide React** - Icon library
 
-## 🔧 API Endpoints
+##  API Endpoints
 
 The backend provides the following main endpoints:
 
@@ -143,11 +143,11 @@ The backend provides the following main endpoints:
 - `GET /chat/sessions/{session_id}` - Get messages for a specific session
 - `DELETE /chat/sessions/{session_id}` - Delete a chat session
 
-## 🔐 Authentication
+##  Authentication
 
 The application uses JSON-based user management for authentication. User credentials and sessions are stored in the `data/` directory.
 
-## 💾 Data Storage
+##  Data Storage
 
 All data is persisted in JSON files within the `backend/data/` directory:
 
@@ -156,7 +156,7 @@ All data is persisted in JSON files within the `backend/data/` directory:
 - **chat_history.json** - Conversation history
 - **summaries.json** - Document summaries
 
-## 🎨 Theme Support
+##  Theme Support
 
 The application includes a theme context that allows users to switch between light and dark modes. Theme preference can be saved for persistent use.
 
@@ -170,14 +170,14 @@ Since the project does not have a web-based upload feature, PDFs are placed dire
 4. **Wait for indexing to complete** - The system will extract text, create chunks, and generate summaries
 5. **Start chatting** - Use the chat interface to ask questions about the indexed documents
 
-## �📱 Browser Support
+##  Browser Support
 
 - Chrome/Chromium (latest)
 - Firefox (latest)
 - Safari (latest)
 - Edge (latest)
 
-## 🛠️ Development
+##  Development
 
 ### Backend Development
 
@@ -213,7 +213,7 @@ npm run build
 
 This creates an optimized build in the `dist/` directory.
 
-## 📝 Environment Configuration
+##  Environment Configuration
 
 Create a `.env` file in the backend directory if needed for configuration:
 
@@ -223,7 +223,7 @@ API_HOST=localhost
 API_PORT=8000
 ```
 
-## 🐛 Troubleshooting
+##  Troubleshooting
 
 ### CORS Issues
 - Ensure the backend is running on `http://localhost:8000`
@@ -245,15 +245,15 @@ API_PORT=8000
 
 ## Note:The functionality of this project requires an API key for gpt-3.5 turbo 
 
-## 📄 License
+##  License
 
 This project is provided as-is for educational and personal use.
 
-## 🤝 Contributing
+##  Contributing
 
 Feel free to fork this project and submit pull requests for any improvements.
 
-## 📧 Support
+##  Support
 
 For issues or questions, please open an issue in the repository.
 
